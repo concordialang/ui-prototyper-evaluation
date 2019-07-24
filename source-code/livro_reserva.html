@@ -1,0 +1,28 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="container">
+      <div class="form-group">
+        <label for="matricula">Matrícula</label>
+        <input class="form-control" type="text" id="matricula" required="true" />
+      </div>
+      <div class="form-group">
+        <label for="codigo_livro">Código do Livro</label>
+        <input class="form-control" type="text" id="codigo_livro" required="true" />
+      </div>
+      <button class="btn btn-primary" type="button" id="buscar">Buscar</button>
+      <div class="form-group">
+        <label for="unidade">Unidade</label>
+        <select class="form-control" id="unidade" required="true">
+          <option value="maracanã">Maracanã</option>
+          <option value="maria das graças">Maria das Graças</option>
+          <option value="nova friburgo">Nova Friburgo</option>
+          <option value="nova iguaçu">Nova Iguaçu</option>
+        </select>
+      </div>
+      <button class="btn btn-primary" type="button" id="reservar">Reservar</button>
+    </div>
+  </body>
+</html>
